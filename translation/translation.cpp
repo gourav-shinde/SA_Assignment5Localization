@@ -1,6 +1,6 @@
 #include <boost/locale.hpp>
 #include <iostream>
-
+#include "newfunction.cpp"
 #include "..\LocalizationUtils\LocalizationUtils.h"
 
 using namespace std;
@@ -41,7 +41,8 @@ int main()
 
     function1(1);
     function1(4);
-
+    newfunction(2);
+    newfunction(6);
     function2(1);
     function2(2);
     function2(15);

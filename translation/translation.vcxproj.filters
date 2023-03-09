@@ -18,9 +18,15 @@
     <ClCompile Include="translation.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="newfunction.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="messages.po">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="newmessages.po">
       <Filter>Source Files</Filter>
     </None>
     <None Include="packages.config" />
